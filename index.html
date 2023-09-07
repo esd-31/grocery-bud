@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROCERY BUD</title>
+    <link rel="icon" type="image/jpg" href="https://img.freepik.com/premium-vector/flat-shopping-cart-icon-white-green-background_159242-1155.jpg">
+    <link rel="stylesheet" href="../stylesheets/index.css">
+    <script src="../javascript/index.js" defer></script>
+</head>
+<body id="root">
+    <div class="grocery-bud-container">
+        <header class="header-container">
+            <div class="list-btn">
+                <button>MY LISTS</button>
+            </div>
+            <div class="profile">
+                <img src="../images/profile.png">
+            </div>
+        </header>
+        <div class="grocery-bud-content">
+            <div class="grocery-bud-logo">
+                <img src="../images/logo.png">
+            </div>
+            <div class="grocery-bud-inputs-controller">
+                <input type="text" id="items-input" placeholder="Enter a items">
+                <button onclick="btnEnter()">ENTER</button>
+            </div>
+            <div class="get-inputs-value">
+                <small class="null-value" style="color: #fff;"></small>
+            </div>
+            <div class="items-modal-container">
+                <div class="grocery-buds-get-input">
+                    <small class="get-value"></small>                 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
